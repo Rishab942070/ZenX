@@ -1,0 +1,99 @@
+body{
+    background-image: url(imgb.jpg);
+    color: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.box1{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.box1 img{
+    width:150px;
+    
+}
+.box2{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+   
+}
+.box3{
+    display: block;
+    width: 45%;
+    margin: 15px auto;
+    right: 50%;
+    
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 25px 15px;
+    font-size: 20px;
+}
+.navbar li a:hover , .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.btn:hover{
+    background-color: rgb(70, 59, 59);
+}
+.container2{
+    
+    border-radius: 10px;
+    margin: 191px 2px;
+    width: 33%;
+    margin-left: 160px;
+    padding: 75px;
+}
+.form-grp input{
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+    display: block;
+    margin: 8px auto;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.container2 button{
+    display: block;
+    width: 55%;
+    margin: 17px auto;
+}
+.f{
+    
+    width: 33%;
+    margin: 68px 526px;
+    margin-bottom: 0px;
+}
+.f p{
+    
+}
